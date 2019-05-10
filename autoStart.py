@@ -18,7 +18,7 @@ reset-mcu
 #echo 0 > /proc/sys/kernel/printk
 
 
-(sleep 0;python -u /root/DAI.py > /root/log.txt)&
+(sleep 0;python -u /root/DAI.py)&
 
 exit 0
 ''')
